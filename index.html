@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conway's Game of Life</title>
+    <style>
+        body { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            font-family: Arial, sans-serif; 
+        }
+        #gameCanvas { 
+            border: 2px solid black; 
+            background-color: #f0f0f0; 
+        }
+        .controls {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conway's Game of Life</h1>
+    <div class="controls">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="randomizeBtn">Randomize</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
